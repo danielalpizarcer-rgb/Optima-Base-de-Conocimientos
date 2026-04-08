@@ -18,10 +18,6 @@ del día a día operativo.
 
 ---
 
-/opt/OV/bin/OpC  ./enableToposync.sh -online -target obmlb.level3dc.br
-<img width="708" height="112" alt="image" src="https://github.com/user-attachments/assets/1e272619-8d48-4998-badb-d5614dd5772a" />
-
-
 
 ## 📂 Contenido
 
