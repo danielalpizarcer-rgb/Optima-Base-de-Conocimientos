@@ -3,6 +3,8 @@
 ## Descripción
 Procedimiento para instalar Vertica en Linux, incluyendo pre-requisitos del sistema, instalación y configuración inicial.
 
+Primero que todo habra que tener los archivos de instalación , segun el sistema operativo y agregarlos en una ruta especifica del sistema operativo. 
+
 ---
 
 ## ⚙️ Pre-requisitos
@@ -43,7 +45,14 @@ Para este paso será necesario subir a permisos de super usuario o adminitració
 echo never > /sys/kernel/mm/transparent_hugepage/enabled
 ```
 
-## 🚀 Instalación de Vertica
+## ⚙️ Instalación del paquete de Vertica.
+Importante diferencias que primero debe instalace el paquete del Sistema Operativo y posteriormente se **Despliega** Vertica que es el siguiente paso.
+
+```bash
+sudo rpm -Ivh <Paquete de Vertica.rpm>
+```
+
+## 🚀 Despliegue de Vertica
 
 Ejecutar instalación:
 
