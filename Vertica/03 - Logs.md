@@ -55,9 +55,6 @@ Este comando ayuda a recopilar información más detallada para análisis o sopo
 ./scrutinize --by-minute yes -U dbadmin -P '<password>' --tmpdir=/var/tmp -m 'Error permissions pods obm'
 ```
 
-```markdown
----
-
 ## Nota
 
 - Reemplazar `<password>`, `<host>` y nombres reales antes de subir a GitHub
