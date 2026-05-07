@@ -1,13 +1,13 @@
 # Mantenimiento de Clúster y Nodos
 
-## Descripción
+### 📝 Descripción
 Este documento detalla los comandos para monitorear el estado de salud del clúster de Vertica y las acciones de recuperación de nodos. 
 
-## Verificación del clúster
+### 🔍 Verificación del clúster
 
 Antes de cualquier cambio es importante validar el estado actual del cluster. 
 
-### Estado de los nodos 
+### 📊 Estado de los nodos 
 Permite verificar el estado actual de los nodos pertenecientes al cluster de vertica. 
 
 ```bash
@@ -19,7 +19,7 @@ Permite una vista rápida del clúster
 /opt/vertica/bin/admintools -t view_cluster
 ```
 
-### Reinicio de un nodo especifico 
+### 📟 Reinicio de un nodo especifico 
 
 Si un nodo aparece en un estado de **DOWN** es recomendable ejecutar : 
 
@@ -33,14 +33,14 @@ Ejemplo
 admintools -t restart_node --hosts ://tienda.com --database itomdb --password 12345678
 ```
 
-### Binarios criticos
+### 📂 Binarios criticos
 Los binarios criticos de Vertica se instalan por default en : 
 
 ```bash 
 /opt/vertica/bin
 ```
 
-### Troubleshouting
+### ⚙️ Troubleshouting
 **Sincronización**
 Si el nodo no sube, revisa que no haya diferencias de tiempo entre los HOST
 
