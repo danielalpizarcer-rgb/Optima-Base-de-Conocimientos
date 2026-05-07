@@ -11,8 +11,8 @@ Archivo	Descripción
 * 04 - Consulta de Usuarios.
 * 05 - Mantenimiento	Salud del clúster y nodos.
 * 06 - Herramienta de diagnostico.
-* 07 - Gestion de base de datos y permisos.md
-* 08 - Configuracion de Agentes.md
+* 07 - Gestion de base de datos y permisos.
+* 08 - Configuracion de Agentes.
 
 # 🛠️ Herramientas Principales
 vsql: Cliente de línea de comandos para interacción con la base de datos.
