@@ -4,15 +4,15 @@ Este repositorio contiene la documentación técnica y guías de referencia ráp
 
 # 📂 Estructura de Documentación
 Archivo	Descripción
-00 - Instalación de Vertica.
-01 - Acceso	a Vertica.
-02 - Servicios de Vertica.
-03 - Logs.
-04 - Consulta de Usuarios.
-05 - Mantenimiento	Salud del clúster y nodos.
-06 - Herramienta de diagnostico.
-07 - Gestion de base de datos y permisos.md
-08 - Configuracion de Agentes.md
+* 00 - Instalación de Vertica.
+* 01 - Acceso	a Vertica.
+* 02 - Servicios de Vertica.
+* 03 - Logs.
+* 04 - Consulta de Usuarios.
+* 05 - Mantenimiento	Salud del clúster y nodos.
+* 06 - Herramienta de diagnostico.
+* 07 - Gestion de base de datos y permisos.md
+* 08 - Configuracion de Agentes.md
 
 # 🛠️ Herramientas Principales
 vsql: Cliente de línea de comandos para interacción con la base de datos.
