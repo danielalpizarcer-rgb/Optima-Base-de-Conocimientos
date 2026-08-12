@@ -2,12 +2,12 @@ $directorioBin = "D:\HPBSM\bin"
 $archivoBat = "opr-archive-events.bat"
 
 # === CONFIGURACIÓN DEL ARCHIVO ORIGEN DE LA FECHA ===
-$rutaArchivoOrigen = "C:\RutaDeTuArchivo\datos.txt" 
+$rutaArchivoOrigen = "C:\Users\danie\Downloads\Prueba.txt" 
 # ====================================================
 
 # Rutas de datos y archivos de salida
-$rutaOvDataDir = "C:\ProgramData\HP\HPBSM"   # Cambia si tu %OvDataDir% es diferente
-$directorioLog = "$rutaOvDataDir\shared\server\datafiles\archive\logs"
+$rutaOvDataDir = "C:\Users\danie\Downloads\"   # Cambia si tu %OvDataDir% es diferente
+$directorioLog = "C:\Users\danie\Downloads\Logs"  # Carpeta donde se guardarán los logs del proceso
 
 # Crear la carpeta de logs si no existe
 if (!(Test-Path $directorioLog)) {
